@@ -5,7 +5,8 @@ authors = ["Bryan Hyland <bryan.hyland32@gmail.com>"]
 edition = "2021"
 license = "GPL-3.0"
 description = "Prints a random number."
+homepage = "https://github.com/bhh32/print-rand"
 repository = "https://github.com/bhh32/print-rand"
 
 [dependencies]
-rand = "0.8.5"
+rand = { version = "0.9.0", default-features = false, features = ["thread_rng"] }
