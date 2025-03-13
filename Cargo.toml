@@ -8,4 +8,4 @@ description = "Prints a random number."
 repository = "https://github.com/bhh32/print-rand"
 
 [dependencies]
-rand = "0.9.0"
+rand = "0.8.5"
